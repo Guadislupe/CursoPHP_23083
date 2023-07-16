@@ -4,17 +4,22 @@
 
 .navbar-brand {
     font-size: 150%;
+    color: lightgray;
 }
-#comprar.nav-link {
+#comprar.nav-link, #comprar-active.nav-link {
     color:green;
+    font-size: 130%;
     }
 
 #active.nav-link{
     color: white;
     }
+
+#comprar-active.nav-link, #active.nav-link{
+    font-style:italic
+}
     
-#active.nav-link, #comprar.nav-link {
-        font-size: 115%;
+#active.nav-link, #comprar.nav-link, #comprar-active.nav-link {
         text-decoration: none;
     }
 
@@ -22,6 +27,41 @@
         color: #212529;
     }
 
+#flex-container {
+        display:flex;
+        flex-direction:column;
+     
+        /* fallback height */
+        min-height:100vh;
+     
+        /* new small viewport height for modern browsers */
+        min-height:100svh;
+     }
+#flex-container > footer {
+        margin-top:auto;
+     }
+body { 
+        padding-top: 150px; 
+}
+
+.bloque {
+    display: flex;
+    padding-left: 5% ;
+    padding-right: 5%;
+    justify-content: space-around;
+}
+
+.total {
+    width: 40%;
+    padding: 1% ;
+}
+.col-2 {
+    text-align: left;
+    font-style: italic;
+}
+.bloque li, .row{
+    padding: 5px;
+}
 .placeholder {
     width: 100%;
     height: 600px;
@@ -77,8 +117,6 @@ footer {
     position: relative;
     left:50%;
     text-align: center;
-
-
 }
 
 .chico {
@@ -88,4 +126,12 @@ footer {
 #ignite {
     color: black;
     text-decoration: underline dotted;
+}
+
+button {
+    width: 100%;
+}
+
+button:hover {
+    font-size: 110%;
 }
