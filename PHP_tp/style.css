@@ -1,0 +1,139 @@
+.nav-link, .float-end {
+    color: lightgray;
+}
+
+.navbar-brand {
+    font-size: 150%;
+    color: lightgray;
+}
+#comprar.nav-link, #comprar-active.nav-link {
+    color:green;
+    font-size: 130%;
+    }
+
+#active.nav-link{
+    color: white;
+    }
+
+#comprar-active.nav-link, #active.nav-link{
+    font-style:italic
+}
+    
+#active.nav-link, #comprar.nav-link, #comprar-active.nav-link {
+        text-decoration: none;
+    }
+
+#active.nav-link:hover, #comprar.nav-link:hover, .float-end:hover {
+        color: #212529;
+    }
+
+#flex-container {
+        display:flex;
+        flex-direction:column;
+     
+        /* fallback height */
+        min-height:100vh;
+     
+        /* new small viewport height for modern browsers */
+        min-height:100svh;
+     }
+#flex-container > footer {
+        margin-top:auto;
+     }
+body { 
+        padding-top: 150px; 
+}
+
+.bloque {
+    display: flex;
+    padding-left: 5% ;
+    padding-right: 5%;
+    justify-content: space-around;
+}
+
+.total {
+    width: 40%;
+    padding: 1% ;
+}
+.col-2 {
+    text-align: left;
+    font-style: italic;
+}
+.bloque li, .row{
+    padding: 5px;
+}
+.placeholder {
+    width: 100%;
+    height: 600px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+
+      }
+.placeholder img {
+    width: 100%; 
+    position: absolute; 
+    filter: blur(2px);
+
+}
+.texto-banner {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+      
+#oradores {
+    text-align: center;
+    padding: 20px;
+}
+.insignia{
+    display: block;
+}
+.col-lg-4 img{
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    width: 400px;
+    display: flex;
+
+}
+
+footer {
+    margin-top: 50px;
+    bottom:0px;
+    position: sticky;
+}
+
+.copete {
+    font-size:10px ;
+    margin-top: -15px;
+}
+.centro {
+    width: 500px;
+    display: flex;
+}
+
+.formulario{
+    position: relative;
+    left:50%;
+    text-align: center;
+}
+
+.chico {
+    font-size: 11px;
+}
+
+#ignite {
+    color: black;
+    text-decoration: underline dotted;
+}
+
+button {
+    width: 100%;
+}
+
+button:hover {
+    font-size: 110%;
+}
